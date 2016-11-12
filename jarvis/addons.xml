@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.program.gpiodiag" name="GPIO Diagnostic" version="0.0.2" provider-name="Marc Hillesheim">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>linux</platform>
+        <summary lang="en">GPIO Diagnostic plugin</summary>
+        <description lang="en">GPIO Diagnostic plugin for the Raspberry Pi</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>www.raspicarprojekte.de/showthread.php/tid=904</forum>
+        <email>hawkeyexp@gmail.com</email>
+    </extension>
+</addon>
+
+<addon id="plugin.program.radioFM" name="FM Radio Nexgen" version="2.1.3" provider-name="Marc Hillesheim">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+	<provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>linux</platform>
+        <summary lang="en">FM Radio plugin - Mod from Hawkeyexp based on work of Andrei Istodorescu</summary>
+        <description lang="en">FM Radio plugin used to control SI4703 module</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>www.raspicarprojekte.de/showthread.php?tid=860</forum>
+        <email>hawkeyexp@gmail.com</email>
+    </extension>
+</addon>
+
+<addon id="skin.carpc-hawktouch" version="1.2.0" name="CarPC-Hawktouch" provider-name="Marc Hillesheim">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+  </requires>
+  <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="0.76" debugging="false">
+    <res width="1280" height="720" aspect="16:9" folder="16x9" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CarPC touch screen skin</summary>
+    <description lang="en">The skin is based on re-Touched skin(Jezz_X) modified by Dorel, Christian and at least by Marc Hillesheim</description>
+    <disclaimer lang="en">Use this skin with a touch screen or a mouse(the pointer is not being shown)</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email>hawkeyexp@gmail.com</email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="metadata.musicvideos.imvdb" name="The Internet Music Video Database" version="0.6" provider-name="tphoenix">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.musicvideos" language="en" library="imvdb.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">IMVDb Music Video Scraper</summary>
+    <description lang="en">This scraper downloads music video information from IMVDb.com.</description>
+    <website></website>
+    <source>http://github.com/tphoenix/metadata.musicvideos.imvdb</source>
+    <email></email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=205755</forum>
+    <license>GNU GPLv2</license>
+  </extension>
+</addon>
+
+<addon id="plugin.program.wifimanager" name="WiFi Manager" version="0.1.9" provider-name="Marc Hillesheim">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <platform>linux</platform>
+        <summary lang="en">WiFi Manager plugin</summary>
+        <description lang="en">WiFi Manager plugin for the Raspberry Pi</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>www.raspicarproject.de/showthread.php?tid=915</forum>
+        <email>hawkeyexp@gmail.com</email>
+    </extension>
+</addon>
+
+<addon id="plugin.program.piwire" name="1-Wire Dashboard" version="0.0.6" provider-name="Marc Hillesheim">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="start"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>linux</platform>
+        <summary lang="en">1-Wire Dashboard plugin</summary>
+        <description lang="en">1-Wire Dashboard plugin for the Raspberry Pi</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>www.raspicarprojekte.de/showthread.php/tid=904</forum>
+        <email>hawkeyexp@gmail.com</email>
+    </extension>
+</addon>
+
+<addon id="plugin.program.pidash" name="RPi-Camera Dashcam" version="1.1.3" provider-name="Marc Hillesheim">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="start"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">RPI-Camera Dashcam plugin</summary>
+        <description lang="en">RPI-Camera Dashcam plugin for the Raspberry Pi Camera Module</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>www.raspicarprojekte.de/showthread.php/tid=861</forum>
+        <email>hawkeyexp@gmail.com</email>
+    </extension>
+</addon>
+
+<addon id="plugin.program.carpc-xtouch" name="X-Touch Helper" version="0.0.6" provider-name="Marc Hillesheim">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="start"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">X-Touch Helper plugin</summary>
+        <description lang="en">X-Touch Helper plugin for Jacks X-Touch Skin</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum></forum>
+        <email>hawkeyexp@gmail.com</email>
+    </extension>
+</addon>
+</addons>
