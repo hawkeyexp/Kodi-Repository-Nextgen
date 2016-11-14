@@ -1,0 +1,6 @@
+
+[B]0.0.2[/B] (2016-10-21)
+- Layout fix / texture update
+
+[B]0.0.1[/B] (2016-10-03)
+- Initial release
