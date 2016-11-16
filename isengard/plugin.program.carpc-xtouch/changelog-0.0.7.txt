@@ -1,4 +1,7 @@
 
+[B]0.0.7[/B] (2016-11-16)
+- Change gui style for jack's skin / brightness control for RPi Display
+
 [B]0.0.6[/B] (2016-10-21)
 - Better interaction with skin (2.1.2 and up)
 
