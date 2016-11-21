@@ -55,7 +55,7 @@
     </extension>
 </addon>
 
-<addon id="skin.carpc-hawktouch" version="1.2.0" name="CarPC-Hawktouch" provider-name="Marc Hillesheim">
+<addon id="skin.carpc-hawktouch" version="1.2.1" name="CarPC-Hawktouch" provider-name="Marc Hillesheim">
   <requires>
     <import addon="xbmc.gui" version="5.9.0"/>
   </requires>
