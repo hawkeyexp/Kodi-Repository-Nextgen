@@ -1,6 +1,0 @@
-
-[B]0.0.2[/B] (2016-11-23)
-- Station name logos
-
-[B]0.0.1[/B] (2016-11-22)
-- Initial release
