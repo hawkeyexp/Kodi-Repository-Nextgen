@@ -1,4 +1,7 @@
 
+[B]0.1.5[/B] (2016-12-01)
+- optimize logo handling / reorg settings
+
 [B]0.1.4[/B] (2016-11-30)
 - show custom logo when no radio staton logo is set / used
 
