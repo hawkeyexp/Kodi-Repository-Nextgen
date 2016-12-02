@@ -1,6 +1,6 @@
 
 [B]0.1.7[/B] (2016-12-02)
-- add library update (with cleanup) to settings / optimize extendedprogressdialog
+- add library update (with cleanup) to settings / add available addons to settings / optimize extendedprogressdialog
 
 [B]0.1.6[/B] (2016-12-01)
 - mod keyboard and numeric input / rework scripts shutdown
