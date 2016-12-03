@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="service.radiofm" name="RadioFM-Backend" version="0.0.5" provider-name="Marc Hillesheim">
+<addon id="service.radiofm" name="RadioFM-Backend" version="0.0.6" provider-name="Marc Hillesheim">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -69,6 +69,20 @@
 			<screenshot>resources/screenshot-11.jpg</screenshot>
 			<screenshot>resources/screenshot-12.jpg</screenshot>
 		</assets>
+	</extension>
+</addon>
+
+<addon id="resource.images.radiofm" name="RadioFM Stationlogos" version="0.0.1" provider-name="Marc Hillesheim">
+	<extension point="kodi.resource.images" compile="false" type="moviegenrefanart" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Radio station logos for service.radiofm</summary>
+		<description lang="en">Radio station logos for service.radiofm</description>
+		<summary lang="de">FM-Senderlogos für service.radiofm</summary>
+		<description lang="de">FM-Senderlogos für service.radiofm</description>
+		<platform>all</platform>
 	</extension>
 </addon>
 

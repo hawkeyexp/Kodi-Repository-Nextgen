@@ -1,4 +1,7 @@
 
+[B]0.0.6[/B] (2016-12-03)
+- Reorg settings / add option for logos via resource addon
+
 [B]0.0.5[/B] (2016-11-30)
 - Use custom logo wehen set and no station logo is used/set
 

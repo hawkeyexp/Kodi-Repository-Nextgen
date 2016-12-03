@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.images.radiofm" name="RadioFM Stationlogos" version="0.0.1" provider-name="Marc Hillesheim">
+	<extension point="kodi.resource.images" compile="false" type="moviegenrefanart" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Radio station logos for service.radiofm</summary>
+		<description lang="en">Radio station logos for service.radiofm</description>
+		<summary lang="de">FM-Senderlogos für service.radiofm</summary>
+		<description lang="de">FM-Senderlogos für service.radiofm</description>
+		<platform>all</platform>
+	</extension>
+</addon>
