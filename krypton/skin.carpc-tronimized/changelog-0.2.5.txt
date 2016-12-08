@@ -1,6 +1,6 @@
 
 [B]0.2.5[/B] (2016-12-08)
-- Add option to set cover as logo during playback
+- Add option to set cover as logo during playback / prepare for system_seek_mode
 
 [B]0.2.4[/B] (2016-12-07)
 - Add kodi settings level / day night mode / weather page updated
