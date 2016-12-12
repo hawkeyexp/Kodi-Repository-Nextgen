@@ -1,4 +1,7 @@
 
+[B]0.0.8[/B] (2016-12-12)
+- Multi country support / Logos DE/AT/RO
+
 [B]0.0.7[/B] (2016-12-09)
 - Fix break on missing deps
 
