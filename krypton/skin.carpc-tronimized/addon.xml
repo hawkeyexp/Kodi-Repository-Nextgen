@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.carpc-tronimized" version="0.3.2" name="CarPC-Tronimized" provider-name="Marc Hillesheim">
+<addon id="skin.carpc-tronimized" version="0.3.3" name="CarPC-Tronimized" provider-name="Marc Hillesheim">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
