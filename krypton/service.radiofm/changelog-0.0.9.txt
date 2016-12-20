@@ -1,4 +1,7 @@
 
+[B]0.0.9[/B] (2016-12-21)
+- Typo fix / Bugfixes / Translate * to + for station logos to make filenames possible
+
 [B]0.0.8[/B] (2016-12-12)
 - Multi country support / Logos DE/AT/RO
 
