@@ -34,11 +34,11 @@
     </extension>
 </addon>
 
-<addon id="skin.carpc-tronimized" version="0.3.5" name="CarPC-Tronimized" provider-name="Marc Hillesheim">
+<addon id="skin.carpc-tronimized" version="0.3.6" name="CarPC-Tronimized" provider-name="Marc Hillesheim">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
+	<extension point="xbmc.gui.skin" debugging="true">
 		<!--<res width="1280" height="960" aspect="4:3" folder="xml"/>-->
 		<res width="1706" height="960" aspect="16:9" default="true" folder="xml"/>
 	</extension>
