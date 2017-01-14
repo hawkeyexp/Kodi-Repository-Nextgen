@@ -34,11 +34,11 @@
     </extension>
 </addon>
 
-<addon id="skin.carpc-tronimized" version="0.4.2" name="CarPC-Tronimized" provider-name="Marc Hillesheim">
+<addon id="skin.carpc-tronimized" version="0.4.3" name="CarPC-Tronimized" provider-name="Marc Hillesheim">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
+	<extension point="xbmc.gui.skin" debugging="true">
 		<!--<res width="1280" height="960" aspect="4:3" folder="xml"/>-->
 		<res width="1706" height="960" aspect="16:9" default="true" folder="xml"/>
 	</extension>
@@ -72,7 +72,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.usbmanager" name="USB Manager" version="0.0.7" provider-name="Marc Hillesheim">
+<addon id="plugin.program.usbmanager" name="USB Manager" version="0.0.8" provider-name="Marc Hillesheim">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
