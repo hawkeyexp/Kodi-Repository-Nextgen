@@ -1,4 +1,7 @@
 
+[B]0.0.9[/B] (2017-01-15)
+- Bugfix unnamed sticks
+
 [B]0.0.8[/B] (2017-01-14)
 - Bugfix
 

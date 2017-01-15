@@ -72,7 +72,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.usbmanager" name="USB Manager" version="0.0.8" provider-name="Marc Hillesheim">
+<addon id="plugin.program.usbmanager" name="USB Manager" version="0.0.9" provider-name="Marc Hillesheim">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
