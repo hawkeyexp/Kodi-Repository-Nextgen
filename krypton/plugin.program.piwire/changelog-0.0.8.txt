@@ -1,4 +1,7 @@
 
+[B]0.0.8[/B] (2017-02-21)
+- Bugfixes temp labels
+
 [B]0.0.7[/B] (2016-12-06)
 - Bugfixes / Prepare for new skin
 
