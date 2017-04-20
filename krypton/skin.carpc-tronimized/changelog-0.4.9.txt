@@ -1,6 +1,6 @@
 
-[B]0.4.8[/B] (2017-04-19)
-- include 1-wire sensor as home replacement
+[B]0.4.9[/B] (2017-04-21)
+- fix 1-wire temp in radio window (1113) / include video / music addons to quickstart / navigation fixes
 
 [B]0.4.7[/B] (2017-04-14)
 - update textures / include 1-wire sensor / include video and music addons / fix back in programs / darker shutdown dialog
