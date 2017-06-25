@@ -1,4 +1,7 @@
 
+[B]0.2.2[/B] (2017-06-25)
+- Fixed detection hardware id / fixed gui
+
 [B]0.2.1[/B] (2017-04-04)
 - Add + for new networks
 
