@@ -2,6 +2,7 @@
  - Update missing translation option in settings
  - Fix german translation
  - Rename icons to prevent from override by skin
+ - Change gui layout
 
 5.1.1
  - Fix startup error on libreelec.
