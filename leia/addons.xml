@@ -1,5 +1,80 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="script.libreelec.devupdater" name="LibreELEC Dev Updater" version="5.1.4" provider-name="Leopold">
+  <requires>
+    <import addon="xbmc.python" version="2.13.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2" optional="false"/>
+    <import addon="script.module.requests" version="2.3.0" optional="false"/>
+    <import addon="script.module.html2text" version="2015.6.21" optional="false"/>
+    <import addon="script.xbmcbackup" version="0.5.2" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"/>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <summary>LibreELEC development build updater</summary>
+    <description>This add-on downloads LibreELEC update files ready to be installed on the next reboot. Select a predefined source or a custom source defined in the add-on settings, then choose from a list of available builds. Some sources provide full build details which can be viewed by pressing 'Info'.</description>
+    <disclaimer>Development builds often have major bugs and crashes can happen quite often. Always backup your userdata folder when installing development builds.</disclaimer>
+    <website>http://devupdater.leopold.me.uk</website>
+    <source>http://github.com/LS80/script.libreelec.devupdater.git</source>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+      <icon>icon.png</icon>
+      <screenshot>screenshots/builds.png</screenshot>
+      <screenshot>screenshots/build_details.png</screenshot>
+    </assets>
+    <news>Updated version for LibreELEC by Marc Hillesheim</news>
+  </extension>
+</addon>
+
+<addon id="repository.kodinerds" name="kodinerds.net Add-ons" version="6.0.0" provider-name="L0RE">
+	<extension point="xbmc.addon.repository" name="L0RE">
+		<info compressed="true">https://raw.githubusercontent.com/kodinerds/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodinerds/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodinerds/repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Official Repository of Kodinerds</summary>
+		<summary lang="de">Offizielles Repository der Kodinerds</summary>
+		<description lang="en">This is the official Repository of the german Community 'Kodinerds' which you'll find at www.kodinerds.net. Most of the hosted Addons are supported by the members of the Community. Enjoy!</description>
+		<description lang="de">Das ist das offizielle Repository der deutschen Community 'Kodinerds', welche Du unter www.kodinerds.net findest. Die meisten der hier gehosteten Addons werden von den Mitgliedern der Community aktiv supported. Viel Spaß!</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.marcelveldt" version="1.0.1" name="Marcelveldt's BETA repository" provider-name="marcelveldt">
+
+	<extension point="xbmc.addon.repository" name="Marcelveldt's BETA repository">
+		<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kodi repository for beta/test versions of Marcelveldt's addons</summary>
+		<description lang="en">Kodi repository for beta/test versions of Marcelveldt's addons, for stable versions please just use the official Kodi repository. This repo is for test/beta versions of my work only</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.libraryeditor" name="Library Editor Script" version="0.9.0" provider-name="phil65">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<language/>
+		<summary lang="en">Library Editor Script</summary>
+		<description lang="en">This script makes it possible to edit movie details manually from within XBMC. Needs Skin Support</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+		<forum>-</forum>
+		<source>-</source>
+		<email>-</email>
+	</extension>
+</addon>
+
     <addon id="repository.guilouz" name="Guilouz Repository" version="1.0.3" provider-name="Guilouz">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -38,101 +113,6 @@
 		<description></description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.kodinerds" name="kodinerds.net Add-ons" version="6.0.0" provider-name="L0RE">
-	<extension point="xbmc.addon.repository" name="L0RE">
-		<info compressed="true">https://raw.githubusercontent.com/kodinerds/repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kodinerds/repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/kodinerds/repo/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Official Repository of Kodinerds</summary>
-		<summary lang="de">Offizielles Repository der Kodinerds</summary>
-		<description lang="en">This is the official Repository of the german Community 'Kodinerds' which you'll find at www.kodinerds.net. Most of the hosted Addons are supported by the members of the Community. Enjoy!</description>
-		<description lang="de">Das ist das offizielle Repository der deutschen Community 'Kodinerds', welche Du unter www.kodinerds.net findest. Die meisten der hier gehosteten Addons werden von den Mitgliedern der Community aktiv supported. Viel Spaß!</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-	<addon id="service.skin.viewswitcher" name="Skin ViewSwitcher Service" version="0.0.3" provider-name="hawkeyexp">
-	<requires>
-		<import addon="xbmc.python" version="2.13.0"/>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-
-	<extension library="service.py" point="xbmc.service" start="login" />
-
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Skin ViewSwitcher Service</summary>
-        <description>Skin ViewSwitcher Service</description>
-		<language></language>
-		<platform>all</platform>
-		<license>GPL v2.0</license>
-		<forum></forum>
-		<website></website>
-		<source></source>
-	</extension>
-</addon>
-
-<addon id="repository.marcelveldt" version="1.0.1" name="Marcelveldt's BETA repository" provider-name="marcelveldt">
-
-	<extension point="xbmc.addon.repository" name="Marcelveldt's BETA repository">
-		<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Kodi repository for beta/test versions of Marcelveldt's addons</summary>
-		<description lang="en">Kodi repository for beta/test versions of Marcelveldt's addons, for stable versions please just use the official Kodi repository. This repo is for test/beta versions of my work only</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.libreelec.devupdater" name="LibreELEC Dev Updater" version="5.1.3" provider-name="Leopold">
-  <requires>
-    <import addon="xbmc.python" version="2.13.0"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.2" optional="false"/>
-    <import addon="script.module.requests" version="2.3.0" optional="false"/>
-    <import addon="script.module.html2text" version="2015.6.21" optional="false"/>
-    <import addon="script.xbmcbackup" version="0.5.2" optional="false"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py"/>
-  <extension point="xbmc.service" library="service.py" start="startup"/>
-  <extension point="xbmc.addon.metadata">
-    <platform>linux</platform>
-    <summary>LibreELEC development build updater</summary>
-    <description>This add-on downloads LibreELEC update files ready to be installed on the next reboot. Select a predefined source or a custom source defined in the add-on settings, then choose from a list of available builds. Some sources provide full build details which can be viewed by pressing 'Info'.</description>
-    <disclaimer>Development builds often have major bugs and crashes can happen quite often. Always backup your userdata folder when installing development builds.</disclaimer>
-    <website>http://devupdater.leopold.me.uk</website>
-    <source>http://github.com/LS80/script.libreelec.devupdater.git</source>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-      <icon>icon.png</icon>
-      <screenshot>screenshots/builds.png</screenshot>
-      <screenshot>screenshots/build_details.png</screenshot>
-    </assets>
-    <news>Updated version for LibreELEC by Marc Hillesheim</news>
-  </extension>
-</addon>
-
-<addon id="script.libraryeditor" name="Library Editor Script" version="0.9.0" provider-name="phil65">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
-	</requires>
-	<extension point="xbmc.python.library" library="default.py" />
-	<extension point="xbmc.addon.metadata">
-		<language/>
-		<summary lang="en">Library Editor Script</summary>
-		<description lang="en">This script makes it possible to edit movie details manually from within XBMC. Needs Skin Support</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
-		<forum>-</forum>
-		<source>-</source>
-		<email>-</email>
 	</extension>
 </addon>
 </addons>
